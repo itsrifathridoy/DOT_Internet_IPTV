@@ -1,0 +1,71 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    width: 100vw; /* Fixed unit for viewport width */
+    height: 100vh;
+}
+
+nav {
+    text-align: center;
+    width: 20%;
+    height: 100%; /* Ensure full height */
+    overflow: auto;
+    background-color: #1e1e1e; /* Optional, for better visibility */
+}
+
+.video {
+    flex: 1; /* Allow it to fill available space */
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 1%;
+}
+
+iframe {
+    width: 90%;
+    height: 80%; /* Adjust as needed */
+    border: none;
+}
+
+button {
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px; /* Adjust for spacing */
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center; /* Center button in the column */
+}
+
+button:hover {
+    background-color: #ff8c00;
+}
+
+footer {
+    background-color: #1e1e1e;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
